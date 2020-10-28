@@ -7,4 +7,8 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> dc7f3b4eb6f0181c04d2b33bdc474111656b6273
 </LinearLayout>
