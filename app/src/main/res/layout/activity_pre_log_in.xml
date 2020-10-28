@@ -7,13 +7,14 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Log In"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:textSize="40sp"/>
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logo"/>
+    </LinearLayout>
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
