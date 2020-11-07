@@ -7,14 +7,20 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <LinearLayout
+    <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/yellow_light">
+
+
         <ImageView
             android:layout_width="250dp"
-            android:layout_height="60dp"
+            android:layout_height="wrap_content"
             android:src="@drawable/logo"/>
-    </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
